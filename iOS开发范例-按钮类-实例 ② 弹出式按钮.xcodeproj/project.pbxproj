@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04AE90C31D9219E80029F4D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90C21D9219E80029F4D4 /* main.m */; };
+		04AE90C61D9219E80029F4D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90C51D9219E80029F4D4 /* AppDelegate.m */; };
+		04AE90C91D9219E80029F4D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90C81D9219E80029F4D4 /* ViewController.m */; };
+		04AE90CC1D9219E80029F4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE90CA1D9219E80029F4D4 /* Main.storyboard */; };
+		04AE90CE1D9219E80029F4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AE90CD1D9219E80029F4D4 /* Assets.xcassets */; };
+		04AE90D11D9219E80029F4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04AE90CF1D9219E80029F4D4 /* LaunchScreen.storyboard */; };
+		04AE90E31D9269990029F4D4 /* but.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90E01D9269990029F4D4 /* but.m */; };
+		04AE90E41D9269990029F4D4 /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 04AE90E21D9269990029F4D4 /* Button.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04AE90BE1D9219E80029F4D4 /* iOS开发范例-按钮类-实例 ② 弹出式按钮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS开发范例-按钮类-实例 ② 弹出式按钮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04AE90C21D9219E80029F4D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04AE90C41D9219E80029F4D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04AE90C51D9219E80029F4D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04AE90C71D9219E80029F4D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04AE90C81D9219E80029F4D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04AE90CB1D9219E80029F4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04AE90CD1D9219E80029F4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04AE90D01D9219E80029F4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04AE90D21D9219E80029F4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04AE90DF1D9269990029F4D4 /* but.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = but.h; sourceTree = "<group>"; };
+		04AE90E01D9269990029F4D4 /* but.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = but.m; sourceTree = "<group>"; };
+		04AE90E11D9269990029F4D4 /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		04AE90E21D9269990029F4D4 /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04AE90BB1D9219E80029F4D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AE90B51D9219E80029F4D4 = {
+			isa = PBXGroup;
+			children = (
+				04AE90C01D9219E80029F4D4 /* iOS开发范例-按钮类-实例 ② 弹出式按钮 */,
+				04AE90BF1D9219E80029F4D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04AE90BF1D9219E80029F4D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04AE90BE1D9219E80029F4D4 /* iOS开发范例-按钮类-实例 ② 弹出式按钮.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04AE90C01D9219E80029F4D4 /* iOS开发范例-按钮类-实例 ② 弹出式按钮 */ = {
+			isa = PBXGroup;
+			children = (
+				04AE90DE1D9269990029F4D4 /* popupBtn */,
+				04AE90C41D9219E80029F4D4 /* AppDelegate.h */,
+				04AE90C51D9219E80029F4D4 /* AppDelegate.m */,
+				04AE90C71D9219E80029F4D4 /* ViewController.h */,
+				04AE90C81D9219E80029F4D4 /* ViewController.m */,
+				04AE90CA1D9219E80029F4D4 /* Main.storyboard */,
+				04AE90CD1D9219E80029F4D4 /* Assets.xcassets */,
+				04AE90CF1D9219E80029F4D4 /* LaunchScreen.storyboard */,
+				04AE90D21D9219E80029F4D4 /* Info.plist */,
+				04AE90C11D9219E80029F4D4 /* Supporting Files */,
+			);
+			path = "iOS开发范例-按钮类-实例 ② 弹出式按钮";
+			sourceTree = "<group>";
+		};
+		04AE90C11D9219E80029F4D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04AE90C21D9219E80029F4D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04AE90DE1D9269990029F4D4 /* popupBtn */ = {
+			isa = PBXGroup;
+			children = (
+				04AE90DF1D9269990029F4D4 /* but.h */,
+				04AE90E01D9269990029F4D4 /* but.m */,
+				04AE90E11D9269990029F4D4 /* Button.h */,
+				04AE90E21D9269990029F4D4 /* Button.m */,
+			);
+			path = popupBtn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04AE90BD1D9219E80029F4D4 /* iOS开发范例-按钮类-实例 ② 弹出式按钮 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04AE90D51D9219E80029F4D4 /* Build configuration list for PBXNativeTarget "iOS开发范例-按钮类-实例 ② 弹出式按钮" */;
+			buildPhases = (
+				04AE90BA1D9219E80029F4D4 /* Sources */,
+				04AE90BB1D9219E80029F4D4 /* Frameworks */,
+				04AE90BC1D9219E80029F4D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS开发范例-按钮类-实例 ② 弹出式按钮";
+			productName = "iOS开发范例-按钮类-实例 ② 弹出式按钮";
+			productReference = 04AE90BE1D9219E80029F4D4 /* iOS开发范例-按钮类-实例 ② 弹出式按钮.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04AE90B61D9219E80029F4D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04AE90BD1D9219E80029F4D4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DFARS7X79T;
+					};
+				};
+			};
+			buildConfigurationList = 04AE90B91D9219E80029F4D4 /* Build configuration list for PBXProject "iOS开发范例-按钮类-实例 ② 弹出式按钮" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04AE90B51D9219E80029F4D4;
+			productRefGroup = 04AE90BF1D9219E80029F4D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04AE90BD1D9219E80029F4D4 /* iOS开发范例-按钮类-实例 ② 弹出式按钮 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04AE90BC1D9219E80029F4D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE90D11D9219E80029F4D4 /* LaunchScreen.storyboard in Resources */,
+				04AE90CE1D9219E80029F4D4 /* Assets.xcassets in Resources */,
+				04AE90CC1D9219E80029F4D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04AE90BA1D9219E80029F4D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04AE90C91D9219E80029F4D4 /* ViewController.m in Sources */,
+				04AE90C61D9219E80029F4D4 /* AppDelegate.m in Sources */,
+				04AE90E41D9269990029F4D4 /* Button.m in Sources */,
+				04AE90C31D9219E80029F4D4 /* main.m in Sources */,
+				04AE90E31D9269990029F4D4 /* but.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04AE90CA1D9219E80029F4D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AE90CB1D9219E80029F4D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04AE90CF1D9219E80029F4D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04AE90D01D9219E80029F4D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04AE90D31D9219E80029F4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04AE90D41D9219E80029F4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04AE90D61D9219E80029F4D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS开发范例-按钮类-实例 ② 弹出式按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengyang.iOS-------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04AE90D71D9219E80029F4D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS开发范例-按钮类-实例 ② 弹出式按钮/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhengyang.iOS-------------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04AE90B91D9219E80029F4D4 /* Build configuration list for PBXProject "iOS开发范例-按钮类-实例 ② 弹出式按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE90D31D9219E80029F4D4 /* Debug */,
+				04AE90D41D9219E80029F4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04AE90D51D9219E80029F4D4 /* Build configuration list for PBXNativeTarget "iOS开发范例-按钮类-实例 ② 弹出式按钮" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04AE90D61D9219E80029F4D4 /* Debug */,
+				04AE90D71D9219E80029F4D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04AE90B61D9219E80029F4D4 /* Project object */;
+}
